@@ -28,6 +28,7 @@ alias svim='sudo vim'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias be='bundle exec'
 alias epion='cd $HOME/repos/epion/patient-check-in'
+alias al='aptible login --lifetime=7days --email=jrinaudo@epionhealth.com'
 
 export LESS=-R
 export LESS_TERMCAP_mb=$'\E[1;31m'     # begin blink
